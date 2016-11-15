@@ -1,4 +1,4 @@
-package com.webview2app;
+package com.GuaPinAmap;
 
 import android.app.Application;
 import android.util.Log;

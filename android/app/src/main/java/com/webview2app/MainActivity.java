@@ -1,4 +1,4 @@
-package com.webview2app;
+package com.GuaPinAmap;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "WebView2App";
+        return "GuaPinAmap";
     }
 }

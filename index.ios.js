@@ -6,4 +6,4 @@ import {
 
 import app from "./app";
 
-AppRegistry.registerComponent('WebView2App', () => app);
+AppRegistry.registerComponent('GuaPinAmap', () => app);

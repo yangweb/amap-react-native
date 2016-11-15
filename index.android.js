@@ -12,7 +12,7 @@ import {
 
 let DEFAULT_URL = 'http://c.guapin.com/app/'; 
  
-let WebViewDemo = React.createClass({
+let WebViewAmap = React.createClass({
   render: function() {
     return (
       <View style={{flex:1}}>
@@ -30,10 +30,10 @@ let WebViewDemo = React.createClass({
 
 let styles = StyleSheet.create({
     webview_style:{  
-       backgroundColor:'#00ff00',   
+       backgroundColor:'#fff',   
     }
 });
  
-AppRegistry.registerComponent('WebView2App', () => WebViewDemo);
+AppRegistry.registerComponent('GuaPinAmap', () => WebViewAmap);
 
-// AppRegistry.registerComponent('WebView2App', () => app);
+// AppRegistry.registerComponent('GuaPinAmap', () => app);
